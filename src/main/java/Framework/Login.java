@@ -47,7 +47,7 @@ public class Login {
 		PageFactory.initElements(driver,this);
 		clickLogin(loginButton);
 		System.out.println("click success");
-		driver.manage().addCookie(new Cookie("wwrtx.sid","D233h0qyWWEdnKx0b7L41_VhXjZxpRRcSKycVk8ZktCaMgtrRwsg7697V9MFIy71"));
+		driver.manage().addCookie(new Cookie("wwrtx.sid","D233h0qyWWEdnKx0b7L41_VhXjZxpRRcSKycVk8ZktCaMgtrRwsg7697V9M"));
 		driver.manage().addCookie(new Cookie("wwrtx.refid","5134804021114109"));
 		driver.navigate().refresh();
 		return this;
